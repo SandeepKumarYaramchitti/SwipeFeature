@@ -16,12 +16,6 @@ class HomeController: UIViewController {
     let cardDeckView = UIView()
     //Buttons Stack View
     let buttonsStackView = HomeBottomControlersStackView()
-    
-//    let users = [
-//        User(name: "Sample1", age: 30, profession: "IT Enginner", ImageName: "image1"),
-//        User(name: "Sample2", age: 30, profession: "Music DJ", ImageName: "image2")
-//    ]
-    
     let cardViewModels = ([
         User(name: "Wedding Day", age: 30, profession: "Marriage", imageNames: ["Wedding1", "Wedding2", "image2"]),
         User(name: "Friends", age: 30, profession: "GOA Trip", imageNames: ["Friends", "Friends2"]),
@@ -31,10 +25,22 @@ class HomeController: UIViewController {
     }
     
     override func viewDidLoad() {
+        
         super.viewDidLoad()
+        topStackView.settingsButton.addTarget(self, action: #selector(handleSettings), for: .touchUpInside)
         setUpLayOuts()
         setUpDummyCards()
     }
+    
+    @objc func handleSettings() {
+        print("Show Registration page..")
+        
+        let registrationController = RegistrationController()
+        present(registrationController, animated: true)
+        
+    }
+    
+    
     
     fileprivate func setUpDummyCards() {
         
