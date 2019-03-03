@@ -21,6 +21,8 @@
 		E515E1EA22105F8800863E06 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515E1E922105F8800863E06 /* User.swift */; };
 		E515E1ED221082A100863E06 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515E1EC221082A100863E06 /* CardViewModel.swift */; };
 		E515E1F02210915A00863E06 /* Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E515E1EF2210915A00863E06 /* Advertiser.swift */; };
+		E52309FB222A44C60012C8A7 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52309FA222A44C60012C8A7 /* RegistrationController.swift */; };
+		E52309FD222A51510012C8A7 /* customTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52309FC222A51510012C8A7 /* customTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		E515E1E922105F8800863E06 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		E515E1EC221082A100863E06 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		E515E1EF2210915A00863E06 /* Advertiser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advertiser.swift; sourceTree = "<group>"; };
+		E52309FA222A44C60012C8A7 /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		E52309FC222A51510012C8A7 /* customTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +186,8 @@
 			isa = PBXGroup;
 			children = (
 				E515E1B221FC910F00863E06 /* HomeController.swift */,
+				E52309FA222A44C60012C8A7 /* RegistrationController.swift */,
+				E52309FC222A51510012C8A7 /* customTextField.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -318,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E515E1E321FCA9FB00863E06 /* HomeBottomControlersStackView.swift in Sources */,
+				E52309FD222A51510012C8A7 /* customTextField.swift in Sources */,
 				E515E1B321FC910F00863E06 /* HomeController.swift in Sources */,
 				E515E1F02210915A00863E06 /* Advertiser.swift in Sources */,
 				E515E1B121FC910F00863E06 /* AppDelegate.swift in Sources */,
@@ -325,6 +332,7 @@
 				E515E1ED221082A100863E06 /* CardViewModel.swift in Sources */,
 				E515E1E7220BE62400863E06 /* CardView.swift in Sources */,
 				E515E1E52207354500863E06 /* TopNavigationStackView.swift in Sources */,
+				E52309FB222A44C60012C8A7 /* RegistrationController.swift in Sources */,
 				E515E1EA22105F8800863E06 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
